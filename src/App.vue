@@ -7,7 +7,7 @@
 <template>
   <Navbar/>
   <IBMCalculator/>
-  <Footer/>
+  <!-- <Footer/> -->
 </template>
 
 <style scoped>
