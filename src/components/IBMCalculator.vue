@@ -6,9 +6,9 @@
         <div class="calculator mx-auto">
           <h2 class="text-center text-info mb-3">IBM Calculator</h2>
 
-          <div class="row">
-            <div class="col">
-              <label for="billAmount" class="form-label">Add Your Age</label>
+          <div class="row inline">
+            <div class="col-md-6">
+              <label for="billAmount" class="form-label">Your-Age</label>
               <input
                 type="text"
                 v-model="getAge"
@@ -19,8 +19,8 @@
               />
             </div>
 
-            <div class="col">
-              <label for="tipPercent" class="form-label">Your Height (Inches)</label>
+            <div class="col-md-6">
+              <label for="tipPercent" class="form-label">Height-(Inches)</label>
               <input
                 type="text"
                 v-model="getHeight"
@@ -33,7 +33,7 @@
           </div>
 
           <div class="mb-3 mt-3">
-            <label for="weight" class="form-label">Add Your Weight (Kg)</label>
+            <label for="weight" class="form-label">Your Weight (Kg)</label>
             <input
               type="text"
               v-model="getWeight"
@@ -124,7 +124,7 @@ function clearFields() {
  
 .calculator {
   min-height: 70%;
-  background-color: #918d8d;
+  background-color: white;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
